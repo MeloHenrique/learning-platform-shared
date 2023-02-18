@@ -1,13 +1,24 @@
 {
-  "name": "shared",
+  "name": "@MeloHenrique/learning-platform-shared",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "main": "lib/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MeloHenrique/learning-platform-shared.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MeloHenrique/learning-platform-shared/issues"
+  },
+  "homepage": "https://github.com/MeloHenrique/learning-platform-shared#readme",
   "version": "1.0.1",
   "private": true,
-  "main": "src",
   "license": "MIT",
-  "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "typescript": "^4.9.5"
-  }
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^4.9.5"
+    }
 }
