@@ -1,0 +1,13 @@
+{
+  "name": "shared",
+  "version": "1.0.1",
+  "private": true,
+  "main": "src",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
