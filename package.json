@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
-  "main": "lib/",
+  "main": "dist/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MeloHenrique/learning-platform-shared.git"
