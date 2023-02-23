@@ -1,8 +1,8 @@
-export class Response{
+export class Response<T>{
     success: boolean;
-    data: any;
+    data: T;
 
-    constructor(success: boolean, data: any) {
+    constructor(success: boolean, data: T) {
         this.success = success;
         this.data = data;
     }
