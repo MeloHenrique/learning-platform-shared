@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.RegisterApprove = void 0;
 var RegisterApprove = /** @class */ (function () {
-    function RegisterApprove(userId, role, approved) {
-        this.userId = userId;
+    function RegisterApprove(userRef, role, approved) {
+        this.userRef = userRef;
         this.role = role;
         this.approved = approved;
     }

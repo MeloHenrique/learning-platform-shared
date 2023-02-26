@@ -1,6 +1,7 @@
+import { IUserRef } from "./userRef";
 export declare class RegisterApprove {
-    userId: string;
+    userRef: IUserRef;
     role: number;
     approved: boolean;
-    constructor(userId: string, role: number, approved: boolean);
+    constructor(userRef: IUserRef, role: number, approved: boolean);
 }

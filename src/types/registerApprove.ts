@@ -1,11 +1,12 @@
+import {IUserRef} from "./userRef";
 
 export class RegisterApprove {
-    userId: string;
+    userRef: IUserRef;
     role: number;
     approved: boolean;
 
-    constructor(userId: string, role: number, approved: boolean ) {
-        this.userId = userId;
+    constructor(userRef: IUserRef, role: number, approved: boolean ) {
+        this.userRef = userRef;
         this.role = role;
         this.approved = approved;
     }
